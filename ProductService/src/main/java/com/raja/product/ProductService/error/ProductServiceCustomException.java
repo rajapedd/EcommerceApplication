@@ -10,5 +10,6 @@ public class ProductServiceCustomException extends  RuntimeException{
     public ProductServiceCustomException(String message,String errorCode){
         super(message);
         this.errorCode=errorCode;
+
     }
 }
